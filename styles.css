@@ -4,11 +4,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: left;
+    display: inline;
 }
 
 body {
-  background-color: lightgray;
-  font-family: Arial;
+    background-color: lightgray;
+    font-family: Arial;
 }
 
 header {
@@ -16,4 +18,19 @@ header {
     text-align: left;
     font-size: 30px;
     color: white;
+}
+
+/* Formatting for links */
+li a {
+    display: block;
+    padding: 8px;
+    background-color: darkgray;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: darkblue;
 }

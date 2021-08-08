@@ -3,16 +3,32 @@
 <head>
     <!-- Add an external CSS sheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Cole Ferguson</title>
+    <title>Contact Me</title>
 </head>
 
 <body>
     <!-- Add the cross-site navigation bar -->
     <script src="navbar.js"></script>
     
-    <header>Cole Ferguson</header>
-    <h1>Heading 1</h1>
-    <p>This is some paragraph text.</p>
+    <form method="post">
+        <div class="contact-form-field">
+            <label>Name:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="contact-form-field">
+            <label>Your Email:</label>
+            <input type="text" name="email">
+        </div>
+        <div class="contact-form-field">
+            <label>Subject:</label>
+            <input type="text" name="subject">
+        </div>
+        <div class="contact-form-field">
+            <label>Message:</label>
+            <input type="text" name="message">
+        </div>
+        <input type="submit" name="submit">
+    </form>
 </body>
 
 </html>
