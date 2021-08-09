@@ -3,7 +3,7 @@ document.write('\
         <ul>\
             <li><a id="home" href="home.html">Home</a></li>\
             <li><a id="about" href="about.html">About Me</a></li>\
-            <li><a id="resume" href="resume.htm">Resume</a></li>\
+            <li><a id="resume" href="resume.html">Resume</a></li>\
             <li><a href="https://github.com/ferguson-cole" target="_blank" rel="noopener noreferrer">Github</a></li>\
         </ul>\
     </nav>\
@@ -18,8 +18,6 @@ if (currentPage.includes("about")) {
 } else {
     document.getElementById('home').className = "active";
 }
-
-
 
 // add if contact page needed
 // <li><a href="contact.html">Contact</a></li>\
