@@ -4,8 +4,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    float: left;
-    display: inline;
+    background-color: #303030;
 }
 
 body {
@@ -20,17 +19,32 @@ header {
     color: white;
 }
 
-/* Formatting for links */
-li a {
-    display: block;
-    padding: 8px;
-    background-color: darkgray;
+li {
+    float: left;
 }
 
-li a:hover:not(.active) {
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Formatting for links */
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover:not(.active) {
     background-color: black;
 }
 
 .active {
-    background-color: darkblue;
+    background-color: darkred;
 }
