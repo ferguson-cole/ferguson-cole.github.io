@@ -10,6 +10,7 @@ ul {
 body {
     background-color: lightgray;
     font-family: Arial;
+    margin: 0;
 }
 
 header {
@@ -27,7 +28,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 
