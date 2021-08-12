@@ -17,7 +17,6 @@ header {
     padding: 50px;
     text-align: left;
     font-size: 30px;
-    color: white;
 }
 
 li {
@@ -48,4 +47,8 @@ a:hover:not(.active) {
 
 .active {
     background-color: darkred;
+}
+
+.about-text-ctr {
+    padding: 100px;
 }
