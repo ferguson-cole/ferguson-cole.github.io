@@ -1,7 +1,7 @@
 document.write('\
     <nav class="navbar">\
         <ul>\
-            <li><a id="home" href="home.html">Home</a></li>\
+            <li><a id="home" href="index.htm">Home</a></li>\
             <li><a id="about" href="about.html">About Me</a></li>\
             <li><a id="resume" href="resume.html">Resume</a></li>\
             <li><a href="https://github.com/ferguson-cole" target="_blank" rel="noopener noreferrer">Github</a></li>\
