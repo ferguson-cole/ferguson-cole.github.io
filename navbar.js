@@ -1,6 +1,6 @@
 document.write('\
-    <nav class="navbar">\
-        <ul>\
+    <nav>\
+        <ul class=NavBarList>\
             <li><a id="home" href="index.htm">Home</a></li>\
             <li><a id="about" href="about.html">About Me</a></li>\
             <li><a id="resume" href="resume.html">Resume</a></li>\
